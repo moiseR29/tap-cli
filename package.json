@@ -1,0 +1,47 @@
+{
+  "name": "cli",
+  "version": "1.7.0",
+  "description": "TAP CLI TUNNEL",
+  "private": "true",
+  "main": "src/index.js",
+  "author": "Moises Rebatta <moiserebatta@gmail.com>",
+  "bin": {
+    "tap": "bin/tap",
+    "auntap": "bin/tap"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "tap"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "config": "^3.3.1",
+    "db-migrate": "^0.11.6",
+    "db-migrate-pg": "^1.0.0",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.3.0",
+    "kill-port": "^1.6.1",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-standard": "^4.0.1",
+    "esm": "^3.2.25",
+    "prettier": "^2.0.5",
+    "standard": "^14.3.4"
+  }
+}
